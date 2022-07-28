@@ -6,6 +6,7 @@
   --gradient-dir5: to top left;
   --size: 5px;
 }
+
 .mtk10,
 .mtk15 {
   color: transparent;
@@ -14,6 +15,7 @@
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
 .mtk5,
 .mtk26 {
   color: transparent;
@@ -27,9 +29,10 @@
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   -webkit-font-smoothing: auto;
-  /* font-family: "Dank Mono", monospace;
-  font-size: 14px; */
+  font-family: "Operator Mono", monospace;
+  font-size: 15px;
 }
+
 .mtk26 {
   background-image: linear-gradient(
     var(--gradient-dir5),
@@ -37,7 +40,7 @@
     #20e3b2,
     #a2de6a
   );
-  /* font-style: italic; */
+  font-style: bold italic;
 }
 .mtk23,
 .mtk16 {
@@ -47,6 +50,7 @@
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
+
 .mtk9,
 .mtk17 {
   color: transparent;
@@ -60,6 +64,7 @@
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
+
 .mtk18 {
   color: transparent;
   background-image: linear-gradient(var(--gradient-dir2), #b0beff, #fed9ff);
@@ -68,6 +73,7 @@
   -webkit-background-clip: text;
   font-style: normal;
 }
+
 .mtk3 {
   color: transparent;
   /* background-image: linear-gradient(
@@ -81,6 +87,7 @@
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
+
 .mtk7 {
   color: transparent;
   background-image: linear-gradient(var(--gradient-dir2), #fc6c8f, #ffb86c);
@@ -88,6 +95,7 @@
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
 .mtk8,
 .mtk14 {
   color: transparent;
@@ -96,6 +104,7 @@
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
 .monaco-workbench
   .activitybar
   > .content
@@ -111,6 +120,7 @@
   left: 0;
   background-image: linear-gradient(45deg, #fc6c8f, #ff2ced);
 }
+
 .monaco-workbench
   .activitybar
   > .content
@@ -120,12 +130,15 @@
   .badge-content {
   background-image: linear-gradient(45deg, #fc6c8f, #ff2ced);
 }
+
 .monaco-editor .cursors-layer .cursor {
   background-image: linear-gradient(to top, #FDC5F5, #F7AEF8, #B388EB, #8093F1, #72DDF7);
 }
+
 .mtki {
   font-style: normal;
 }
+
 .monaco-workbench
   .part.editor
   > .content
@@ -268,6 +281,7 @@
   animation: gradient 5s ease alternate infinite;
   height: 3px;
 }
+
 @keyframes gradient {
   0% {
     background-position: 0% 50%;
