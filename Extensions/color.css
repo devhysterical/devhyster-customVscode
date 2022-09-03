@@ -155,7 +155,7 @@
 }
 
 /* Tab 4 góc */
-/* .monaco-workbench
+.monaco-workbench
   .part.editor
   > .content
   .editor-group-container
@@ -190,7 +190,7 @@
   left: 0;
   border-right: 0;
   border-bottom: 0;
-  border-image-source: linear-gradient(-45deg, #4dd78a, #20e3b2);
+  border-image-source: linear-gradient(-45deg, #F72585, #4CC9F0);
 }
 .monaco-workbench
   .part.editor
@@ -204,7 +204,7 @@
   bottom: 0;
   border-top: 0;
   border-left: 0;
-  border-image-source: linear-gradient(-45deg, #6a5af9, #d66efd);
+  border-image-source: linear-gradient(-45deg, #B5179E, #4895EF);
 }
 .monaco-workbench
   .part.editor
@@ -238,7 +238,7 @@
   bottom: 0;
   border-top: 0;
   border-right: 0;
-  border-image-source: linear-gradient(-45deg, #fc6c8f, #ffb86c);
+  border-image-source: linear-gradient(-45deg, #7209B7, #4361EE);
 }
 .monaco-workbench
   .part.editor
@@ -251,12 +251,12 @@
   right: 0;
   border-left: 0;
   border-bottom: 0;
-  border-image-source: linear-gradient(-45deg, #098dff, #2cccff);
-} */
+  border-image-source: linear-gradient(-45deg, #560BAD, #3F37C9);
+}
 
 
 /*Tab active*/
-.monaco-workbench
+/* .monaco-workbench
   .part.editor
   > .content
   .editor-group-container
@@ -280,7 +280,7 @@
   );
   animation: gradient 5s ease alternate infinite;
   height: 3px;
-}
+} */
 
 @keyframes gradient {
   0% {
