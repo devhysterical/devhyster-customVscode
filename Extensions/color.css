@@ -29,7 +29,7 @@
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   -webkit-font-smoothing: auto;
-  font-family: "Operator Mono", monospace;
+  font-family: "Cascadia SemiLight Italic", monospace;
   font-size: 15px;
 }
 
@@ -132,7 +132,14 @@
 }
 
 .monaco-editor .cursors-layer .cursor {
-  background-image: linear-gradient(to top, #FDC5F5, #F7AEF8, #B388EB, #8093F1, #72DDF7);
+  background-image: linear-gradient(
+    to top,
+    #fdc5f5,
+    #f7aef8,
+    #b388eb,
+    #8093f1,
+    #72ddf7
+  );
 }
 
 .mtki {
@@ -155,7 +162,7 @@
 }
 
 /* Tab 4 góc */
-.monaco-workbench
+/* .monaco-workbench
   .part.editor
   > .content
   .editor-group-container
@@ -252,11 +259,10 @@
   border-left: 0;
   border-bottom: 0;
   border-image-source: linear-gradient(-45deg, #560BAD, #3F37C9);
-}
-
+} */
 
 /*Tab active*/
-/* .monaco-workbench
+.monaco-workbench
   .part.editor
   > .content
   .editor-group-container
@@ -267,20 +273,20 @@
   background-size: 400% 400%;
   background-image: linear-gradient(
     -45deg,
-    #F72585, 
-    #B5179E, 
-    #7209B7,
-    #560BAD, 
-    #480CA8,
-    #3A0CA3,
-    #3F37C9,
-    #4361EE,
-    #4895EF,
-    #4CC9F0
+    #f72585,
+    #b5179e,
+    #7209b7,
+    #560bad,
+    #480ca8,
+    #3a0ca3,
+    #3f37c9,
+    #4361ee,
+    #4895ef,
+    #4cc9f0
   );
   animation: gradient 5s ease alternate infinite;
   height: 3px;
-} */
+}
 
 @keyframes gradient {
   0% {
