@@ -4,13 +4,15 @@
   --gradient-dir3: to right top;
   --gradient-dir4: to left bottom;
   --gradient-dir5: to top left;
+  --gradient-dir6: to right;
+  --gradient-dir7: to left;
   --size: 5px;
 }
 
 .mtk10,
 .mtk15 {
   color: transparent;
-  background-image: linear-gradient(var(--gradient-dir4), #fc806c, #ff1bd1);
+  background-image: linear-gradient(var(--gradient-dir7), #fc806c, #ff1bd1);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -21,8 +23,9 @@
   color: transparent;
   background-image: linear-gradient(
     var(--gradient-dir1),
-    #00ff99 0%, 
-    #66ff33 100%
+    #0cebeb 0%,
+    #66ff33 50%, 
+    #11998e 100%
   );
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -34,17 +37,19 @@
 
 .mtk26 {
   background-image: linear-gradient(
-    var(--gradient-dir5),
-    #00ff99 0%, 
-    #66ff33 100%
+    var(--gradient-dir7),
+    #0cebeb 0%,
+    #66ff33 50%, 
+    #11998e 100%
   );
   font-style: bold italic;
 }
 .mtk5 {
   background-image: linear-gradient(
     var(--gradient-dir5),
-    #00ff99 0%, 
-    #66ff33 100%
+    #0cebeb 0%,
+    #66ff33 50%, 
+    #11998e 100%
   );
   font-style: italic;
 }
@@ -62,9 +67,9 @@
   color: transparent;
   background-image: linear-gradient(
     var(--gradient-dir2),
-    #0052D4,
-    #6FB1FC,
-    #4364F7
+    #5433FF,
+    #20BDFF,
+    #A5FECB
   );
   background-clip: text;
   -webkit-text-fill-color: transparent;
