@@ -21,9 +21,8 @@
   color: transparent;
   background-image: linear-gradient(
     var(--gradient-dir1),
-    #11998F,
-    #38EF7D,
-    #20e3b2
+    #00ff99 0%, 
+    #66ff33 100%
   );
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -36,18 +35,16 @@
 .mtk26 {
   background-image: linear-gradient(
     var(--gradient-dir5),
-    #4dd78a,
-    #20e3b2,
-    #a2de6a
+    #00ff99 0%, 
+    #66ff33 100%
   );
   font-style: bold italic;
 }
 .mtk5 {
   background-image: linear-gradient(
     var(--gradient-dir5),
-    #11998F,
-    #38EF7D,
-    #20e3b2
+    #00ff99 0%, 
+    #66ff33 100%
   );
   font-style: italic;
 }
@@ -108,7 +105,7 @@
 .mtk8,
 .mtk14 {
   color: transparent;
-  background-image: linear-gradient(to right, #fbd07c, #f7f779);
+  background-image: linear-gradient(to top right, #ffffcc 0%, #ffff00 100%);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
