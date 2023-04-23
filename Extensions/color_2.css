@@ -12,7 +12,7 @@
 .mtk10,
 .mtk15 {
   color: transparent;
-  background-image: linear-gradient(var(--gradient-dir7), #fc806c, #ff1bd1);
+  background-image: linear-gradient(var(--gradient-dir7), #f953c6, #b91d73, #ff1bd1);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -56,7 +56,7 @@
 .mtk23,
 .mtk16 {
   color: transparent;
-  background-image: linear-gradient(var(--gradient-dir1), #d66efd, #6a5af9);
+  background-image: linear-gradient(var(--gradient-dir1), #7F00FF, #E100FF);
   background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
